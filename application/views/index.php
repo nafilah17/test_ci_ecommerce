@@ -61,107 +61,117 @@
             </div>
         </nav>
 
-        <!-- Header-->
-        <header class="bg-dark py-5">
+        <div class="container d-flex">
+            <!-- Sidebar -->
+            <div class="row"> 
+            <div class="col-sm-3 position-sticky">
+            <div class="list-group list-group-flush mx-3 mt-4">
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                aria-current="true"
+                >
+                    <div class="d-flex ">
+                        <div class="px-1">
+                            <img src="<?php echo base_url('assets/images/ava.webp')?>" class="rounded-circle" style="width: 40px;" alt="Avatar" />
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Monkey D Luff</h6>
+                            <p class="mb-2 pb-1" style="color: #2b2a2a;">
+                            @mugiwara
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple "
+                >
+                <i class="bi-person-check-fill me-1"></i>
+                <span>Followers</span>
+                </a>
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-person-check me-1"></i><span>Following</span></a
+                >
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-globe me-1"></i>
+                <span>Community</span></a
+                >
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-graph-up me-1"></i>
+                <span>Crowfunding</span>
+                </a>
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-bag-dash-fill me-1"></i>
+                <span>Market</span>
+                </a>
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-newspaper me-1"></i>
+                <span>News</span>
+                </a>
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-people-fill me-1"></i>
+                <span>Groups</span>
+                </a>
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-chat-dots-fill me-1"></i>
+                <span>Message</span>
+                </a>
+                <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="bi-bookmark-fill me-1"></i>
+                <span>Saved</span>
+                </a>
+            
+            </div>
+        </div>
+    <!-- Header-->
+    <div class="col-sm-9">
+        <header class="bg-dark">
             <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
+                <!-- change image -->
+               
+                <img src="<?php echo base_url('assets/images/background-2.jpg')?>" class="img-fluid" style="width: 1920px;" alt="image-header">
+                <!-- <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Shop in style</h1>
                     <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
-                </div>
+                </div> -->
+                
             </div>
         </header>
-         
-  <!-- Sidebar -->
-  <!-- Sidebar -->
-  <nav
-       id="sidebarMenu"
-       class="collapse d-lg-block sidebar collapse bg-white"
-       >
-    <div class="position-sticky">
-      <div class="list-group list-group-flush mx-3 mt-4">
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           aria-current="true"
-           >
-            <div class="d-flex ">
-                <div class="px-1">
-                    <img src="<?php echo base_url('assets/images/ava.webp')?>" class="rounded-circle" style="width: 40px;" alt="Avatar" />
-                </div>
-                <div>
-                    <h6 class="mb-1">Monkey D Luff</h6>
-                    <p class="mb-2 pb-1" style="color: #2b2a2a;">
-                    @mugiwara
-                    </p>
-                </div>
-            </div>
-        </a>
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple "
-           >
-           <i class="bi-person-check-fill me-1"></i>
-          <span>Followers</span>
-        </a>
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-person-check me-1"></i><span>Following</span></a
-          >
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-globe me-1"></i>
-           <span>Community</span></a
-          >
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-graph-up me-1"></i>
-          <span>Crowfunding</span>
-        </a>
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-bag-dash-fill me-1"></i>
-         <span>Market</span>
-        </a>
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-newspaper me-1"></i>
-          <span>News</span>
-        </a>
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-people-fill me-1"></i>
-          <span>Groups</span>
-        </a>
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-chat-dots-fill me-1"></i>
-          <span>Message</span>
-        </a>
-        <a
-           href="#"
-           class="list-group-item list-group-item-action py-2 ripple"
-           >
-           <i class="bi-bookmark-fill me-1"></i>
-          <span>Saved</span>
-        </a>
-       
-      </div>
     </div>
-  </nav>
+
+    </div> 
+</div>
+
+        
+        
+         
+  
+  <!-- </nav> -->
         <!-- Section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
@@ -169,196 +179,272 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
-                                <div class="text-center">
+                                <div >
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
-                                    <!-- Product price-->
-                                    $40.00 - $80.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
                                     </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
-                                    <!-- Product price-->
-                                    $120.00 - $280.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
                                     </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
-                                <div class="text-center">
+                                <div >
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
+                                    </div>
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                    </div>
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div >
+                                    <!-- Product name-->
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
+                                    </div>
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                    </div>
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div >
+                                    <!-- Product name-->
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
+                                    </div>
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                    </div>
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div >
+                                    <!-- Product name-->
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
+                                    </div>
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                    </div>
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div >
+                                    <!-- Product name-->
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
+                                    </div>
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                    </div>
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div >
+                                    <!-- Product name-->
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
+                                    </div>
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                    </div>
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div >
+                                    <!-- Product name-->
+                                    <p>  Mobile Legend </p>
+                                    <h6 class="fw-bolder me-1">MPL Indonesia Season 11</h6>
+                                    <!-- Desc -->
+                                    <div>
+                                    <i class="bi-calendar3 me-1"></i>
+                                        <span>20 Februari 2023 - 29 Februari 2023</span>
+                                    </div>
+                                    <div>
+                                    <i class="bi-people me-1" ></i>
+                                        <span>5/6 Tim</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="d-flex" style="justify-content: space-between;">
+                                    <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                    </div>
+                                    <div>
+                                        <i class="bi-share me-1" style="font-size: 30px;"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
