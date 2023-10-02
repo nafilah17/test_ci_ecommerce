@@ -153,13 +153,11 @@
         <header class="bg-dark">
             <div class="container px-4 px-lg-5 my-5">
                 <!-- change image -->
-               
-                <img src="<?php echo base_url('assets/images/background-2.jpg')?>" class="img-fluid" style="width: 1920px;" alt="image-header">
+                <img src="<?php echo base_url('assets/images/background-2.jpg')?>" class="img-fluid" style="width: 100%; height:auto;" alt="image-header">
                 <!-- <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Shop in style</h1>
                     <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
                 </div> -->
-                
             </div>
         </header>
     </div>
@@ -167,16 +165,35 @@
     </div> 
 </div>
 
-        
-        
-         
-  
-  <!-- </nav> -->
+<div class="container px-4 px-lg-5 mt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-2 px-1">
+            <img src="<?php echo base_url('assets/images/catalog-product.jpg')?>" class="rounded-circle" style="width: 150px;" alt="Avatar" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 px-1">
+            <img src="<?php echo base_url('assets/images/catalog-product.jpg')?>" class="rounded-circle" style="width: 150px;" alt="Avatar" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 px-1">
+            <img src="<?php echo base_url('assets/images/catalog-product.jpg')?>" class="rounded-circle" style="width: 150px;" alt="Avatar" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 px-1">
+            <img src="<?php echo base_url('assets/images/catalog-product.jpg')?>" class="rounded-circle" style="width: 150px;" alt="Avatar" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 px-1">
+            <img src="<?php echo base_url('assets/images/catalog-product.jpg')?>" class="rounded-circle" style="width: 150px;" alt="Avatar" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 px-1">
+            <img src="<?php echo base_url('assets/images/catalog-product.jpg')?>" class="rounded-circle" style="width: 150px;" alt="Avatar" />
+        </div>
+    </div>  
+</div>
+
+
         <!-- Section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
@@ -210,7 +227,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
@@ -244,7 +261,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
@@ -278,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
@@ -312,7 +329,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
@@ -346,7 +363,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
@@ -380,7 +397,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
@@ -414,7 +431,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <div class="col mb-5 col-12 col-md-8 col-lg-4">
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top" src="<?php echo base_url('assets/images/product-image.jpg')?>" alt="..." />
