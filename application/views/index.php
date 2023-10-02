@@ -18,32 +18,38 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <!-- <a class="navbar-brand" href="#!">Start Bootstrap</a> -->
+                <div class="input-group" style="width:350px;">
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" >
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                        <i class="bi-search"></i>
+                    </button>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link"  href="#!">
-                        <i class="bi-house-fill me-1"></i>
+                        <i class="bi-house-fill me-1" style="font-size: 30px;"></i>
                         </a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">
-                        <i class="bi-award-fill me-1"></i>
+                        <i class="bi-award-fill me-1" style="font-size: 30px;"></i>
                         </a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">
-                        <i class="bi-display-fill me-1"></i>
+                        <i class="bi-display-fill me-1" style="font-size: 30px;"></i>
                         </a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">
-                        <i class="bi-controller me-1"></i>
+                        <i class="bi-controller me-1" style="font-size: 30px;"></i>
                         </a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">
-                        <i class="bi-globe2 me-1"></i>
+                        <i class="bi-globe2 me-1" style="font-size: 30px;"></i>
                         </a></li>
                         
                     </ul>
                     <form class="d-flex">
                         <div class="d-flex">
                             <div class="px-4">
-                                <i class="bi-bell-fill me-0"></i>
-                                <span class="position-absolute translate-middle p-1 bg-danger border border-light rounded-circle">
+                                <i class="bi-bell-fill me-0" style="font-size: 30px;"></i>
+                                <span class="position-absolute translate-middle p-1 bg-danger border rounded-circle">
                                     <span class="visually-hidden">New alerts</span>
                                 </span>
                             </div>  
@@ -361,7 +367,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Test FE Rissa Nafilah 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
