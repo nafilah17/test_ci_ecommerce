@@ -12,6 +12,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="<?php echo base_url('assets/css/styles.css') ?>" rel="stylesheet" />
+      
     </head>
     <body>
         <!-- Navigation-->
@@ -21,28 +22,39 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-                            </ul>
-                        </li>
+                        <li class="nav-item"><a class="nav-link"  href="#!">
+                        <i class="bi-house-fill me-1"></i>
+                        </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">
+                        <i class="bi-award-fill me-1"></i>
+                        </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">
+                        <i class="bi-display-fill me-1"></i>
+                        </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">
+                        <i class="bi-controller me-1"></i>
+                        </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">
+                        <i class="bi-globe2 me-1"></i>
+                        </a></li>
+                        
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="submit">
-                            <i class="bi-cart-fill me-1"></i>
-                            Cart
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                        </button>
+                        <div class="d-flex">
+                            <div class="px-4">
+                                <i class="bi-bell-fill me-0"></i>
+                                <span class="position-absolute translate-middle p-1 bg-danger border border-light rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </div>  
+                        <div>
+                            <img src="<?php echo base_url('assets/images/ava.webp')?>" class="rounded-circle" style="width: 40px;" alt="Avatar" />
+                        </div>
                     </form>
                 </div>
             </div>
         </nav>
+
         <!-- Header-->
         <header class="bg-dark py-5">
             <div class="container px-4 px-lg-5 my-5">
@@ -52,6 +64,98 @@
                 </div>
             </div>
         </header>
+         
+  <!-- Sidebar -->
+  <!-- Sidebar -->
+  <nav
+       id="sidebarMenu"
+       class="collapse d-lg-block sidebar collapse bg-white"
+       >
+    <div class="position-sticky">
+      <div class="list-group list-group-flush mx-3 mt-4">
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           aria-current="true"
+           >
+            <div class="d-flex ">
+                <div class="px-1">
+                    <img src="<?php echo base_url('assets/images/ava.webp')?>" class="rounded-circle" style="width: 40px;" alt="Avatar" />
+                </div>
+                <div>
+                    <h6 class="mb-1">Monkey D Luff</h6>
+                    <p class="mb-2 pb-1" style="color: #2b2a2a;">
+                    @mugiwara
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple "
+           >
+           <i class="bi-person-check-fill me-1"></i>
+          <span>Followers</span>
+        </a>
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-person-check me-1"></i><span>Following</span></a
+          >
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-globe me-1"></i>
+           <span>Community</span></a
+          >
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-graph-up me-1"></i>
+          <span>Crowfunding</span>
+        </a>
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-bag-dash-fill me-1"></i>
+         <span>Market</span>
+        </a>
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-newspaper me-1"></i>
+          <span>News</span>
+        </a>
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-people-fill me-1"></i>
+          <span>Groups</span>
+        </a>
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-chat-dots-fill me-1"></i>
+          <span>Message</span>
+        </a>
+        <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           >
+           <i class="bi-bookmark-fill me-1"></i>
+          <span>Saved</span>
+        </a>
+       
+      </div>
+    </div>
+  </nav>
         <!-- Section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
